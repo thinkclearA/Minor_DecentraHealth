@@ -1,0 +1,44 @@
+{
+  "name": "decentrahealth",
+  "version": "1.0.0",
+  "description": "Our decentralised health-record keeping application.\r PORT=8000\r MONGOOSE_URL=mongodb://localhost:27017/DecentraHealth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd backend && nodemon index.js &",
+    "client": "cd frontend && npm start",
+    "dev": "concurrently \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashsrivastava5402/DecentraHealth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashsrivastava5402/DecentraHealth/issues"
+  },
+  "homepage": "https://github.com/yashsrivastava5402/DecentraHealth#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.2"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@fontsource/montez": "^4.5.8",
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.0",
+    "@mui/styled-engine-sc": "^5.8.0",
+    "material-ui-phone-number": "^3.0.0",
+    "react-draggable": "^4.4.5",
+    "react-router-dom": "^6.3.0",
+    "serialport": "^10.5.0",
+    "styled-components": "^5.3.5"
+  }
+}
