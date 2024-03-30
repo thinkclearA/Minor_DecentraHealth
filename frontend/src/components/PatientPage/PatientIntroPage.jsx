@@ -72,17 +72,17 @@ function PatientIntroPage() {
     }
 
     const goToInsight = ()=>{
-      // navigate('/PatientInsight',{ state: { Name: state.Name, Aadhar: state.Aadhar, Age: state.Age, Gender: state.Gender } });
+      navigate('/PatientInsight',{ state: { Name: state.Name, Aadhar: state.Aadhar, Age: state.Age, Gender: state.Gender } });
     }
     
     const goToRecc = (e) => {
-      // e.preventDefault();
-      // setSubmitted(true);
-      // navigate(`/InputSymptoms`, {state: { Name: state.Name, Aadhar: state.Aadhar, Age: state.Age, Gender: state.Gender }});
+      e.preventDefault();
+      setSubmitted(true);
+      navigate(`/InputSymptoms`, {state: { Name: state.Name, Aadhar: state.Aadhar, Age: state.Age, Gender: state.Gender }});
     } 
 
     const goToAccess = ()=>{
-      // navigate('/PatientAccessControl', {state: { Name: state.Name, Aadhar: state.Aadhar, Age: state.Age, Gender: state.Gender }});
+      navigate('/PatientAccessControl', {state: { Name: state.Name, Aadhar: state.Aadhar, Age: state.Age, Gender: state.Gender }});
     }
 
     return (
