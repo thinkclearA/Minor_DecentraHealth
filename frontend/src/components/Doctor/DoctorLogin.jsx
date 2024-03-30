@@ -14,10 +14,6 @@ const ParentComponent = styled(Box)`
   display: none;
 }
 `
-// const Title = styled(Typography)`
-//     font-size: 70px;
-//     color: #207868;
-// `
 const Component = styled(Box)`
    text-align: center;
     display:flex;
